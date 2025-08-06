@@ -1,4 +1,5 @@
 body {
+<<<<<<< HEAD
     background-color: #f5f7fa;
     color: #222831;
     font-family: Arial, Helvetica, sans-serif;
@@ -32,4 +33,33 @@ button {
 
 button:hover {
     background-color: #008891;
+=======
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+background-color: #333;
+color:white;
+padding: 20px;
+text-align: center;
+}
+.about {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+.responsive-img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+/* Media query: Stack content on small screens*/
+@media (max-width: 600px){
+    .about {
+        flex-direction: column;
+    }
+>>>>>>> 19e25064bb0043c0486b643cab94450e44bdff59
 }
